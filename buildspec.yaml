@@ -1,5 +1,10 @@
 version: 0.2
 
+env:
+  variables:
+    ACCESS_KEY: ${{ secrets.AWS_ACCESS_KEY }}
+    SECRET_KEY: ${{ secrets.AWS_SECRET_KEY }}
+
 phases:
   install:
     commands:
@@ -14,3 +19,6 @@ phases:
     commands:
       - echo "[+] Installing dependencies...."
       - pip install -r requirements.txt
+      
+      # Escrever conteudo de GOOGLE_CREDETIALS para json
+      # - echo "${{ secrets.GCP_CREDENTIALS }}" > $pwd/"credenciais-gcp.json"
