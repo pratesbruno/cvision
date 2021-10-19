@@ -12,11 +12,11 @@ def extrair_infos_carteirinha(event=None):
     
     # Criar df_op_planos de arquivo csv
     df_operadoras_planos = pd.read_csv(path_atual + '/base-operadoras-planos.csv',delimiter=';')
-    
-    #path_s3 = 'uploads/attachment/file/606217/image_picker8860528620762238448_compressed9143976869443367171.jpg'
+
+    # Bucket name - passar como argumento?
     bucket_name = 'beep-production'
 
-    # json.loads funciona para testes locais. event.get_json() para cloud.
+    # json.loads funciona para testes locais. event.get_json() para gcp.
     try:
         event_json = json.loads(event)
     except:
