@@ -1,0 +1,67 @@
+﻿operadora;plano;string_alvo;id_plano
+Amil;Amil 400 Nacional QC;AMIL 400 QC;25
+Amil;Amil 400 Nacional QP;AMIL 400 QP;26
+Amil;Amil 400 Nacional QP;400 NAC;26
+Amil;Amil 500 Nacional;500 NAC;29
+Amil;Amil 500 Nacional;AMIL 500;29
+Amil;Amil 700 Nacional;700 NAC;30
+Amil;Amil 700 Nacional;AMIL 700;30
+Amil;Amil Blue III Colab;BLUE;34
+Amil;Amil IDG Plus I QP;Amil IDG Plus I QP;37
+Amil;Amil IDG Plus QC;AMIL IDG PLUS QC;35
+Amil;Amil S 70;AMIL S 70;31
+Amil;Amil S450 QC;AMIL S450 QC;27
+Amil;Amil S450 QP;AMIL S450 QP;28
+Amil;Amil S750 Colab;AMIL S750 COLAB;33
+Amil;Amil S750 QP;AMIL S750 QP;32
+Amil One;Amil One S1500 QP;AMIL ONE S1500;60
+Amil One;Amil One S2500 Colab;AMIL ONE S2500 COLAB;63
+Amil One;Amil One S2500 QP;AMIL ONE S2500 QP;61
+Amil One;Amil One S6500 Black QP;AMIL ONE S6500 BLACK;62
+Amil One;H0+L1;H0+L1;41
+Amil One;H0+L2;H0+L2;42
+Amil One;H1+L1;H1+L1;43
+Amil One;H1+L2;H1+L2;44
+Amil One;H2+L1;H2+L1;45
+Amil One;H2+L2;H2+L2;46
+Amil One;H2+L3;H2+L3;47
+Amil One;H3+L1;H3+L1;48
+Amil One;H3+L2;H3+L2;49
+Amil One;H3+L3;H3+L3;50
+Amil One;H4+L2;H4+L2;51
+Amil One;H4+L3;H4+L3;52
+Amil One;Lincx - LT3 Nacional;LINCX LT3;58
+Amil One;Lincx - LT4 Nacional;LINCX LT4;59
+Amil One;Lincx - LT3 Nacional;LT3 NAC;58
+Amil One;Lincx - LT4 Nacional;LT4 NAC;59
+Amil One;One Health  - Rede One Black T5;ONE BLACK T5;57
+Amil One;One Health - Rede One Black T2;ONE BLACK T2;54
+Amil One;One Health - Rede One Black T3;BLACK T3;55
+Amil One;One Health - Rede One T1;ONE T1;53
+Amil One;One Health  - Rede One Black T4;ONE BLACK T4;56
+Bradesco;Rede Nacional;REDE NACIONAL;3
+Bradesco;Rede Nacional;NACIONAL;3
+Bradesco;Internacional;INTERNACIONAL;66
+Bradesco;Livre Escolha;LIVRE ESCOLHA;67
+Bradesco;Nacional Plus;NACIONAL PLUS;4
+Bradesco;Nacional flex;NACIONAL FLEX;1
+Bradesco;Personal VIII;PERSONAL V;68
+Bradesco;Preferencial plus;PREFERENCIAL PLUS;2
+Bradesco;Premium;PREMIUM;65
+Careplus;Básico;BASICO;15
+Careplus;Especial I;ESPECIAL I;17
+Careplus;Especial II;ESPECIAL II;18
+Careplus;Especial III;ESPECIAL III;19
+Careplus;Executivo I;EXECUTIVO I;20
+Careplus;Executivo II;EXECUTIVO II;21
+Careplus;Master I;MASTER I;23
+Fapes;PAS;PAS;24
+MediService;Branco;BRANCO;6
+MediService;Ouro;OURO;7
+MediService;Prata;PRATA;8
+MediService;Bronze;BRONZE;9
+Omint;Corporate;CORPORATE;12
+Omint;Skill;SKILL;13
+Omint;Access;ACCESS;11
+Omint;Premium;PREMIUM;10
+Omint;Skill Max;SKILL MAX;14
