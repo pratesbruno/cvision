@@ -10,7 +10,7 @@ def extrair_infos_carteirinha(event=None):
 
     # Definir credenciais GCP a partir do arquivo .json
     path_atual = os.getcwd()
-    os.environ['GOOGLE_APPLICATION_CREDENTIALS'] = path_atual + '/credenciais-gcp.json'
+    os.environ['GOOGLE_APPLICATION_CREDENTIALS'] = path_atual + '/credenciais-gcp-datateam.json'
     
     # Criar df_operadoras_planos a partir do arquivo csv
     df_operadoras_planos = pd.read_csv(path_atual + '/base-operadoras-planos.csv',delimiter=';')
@@ -39,5 +39,4 @@ def extrair_infos_carteirinha(event=None):
     }
 
     print(response)
-    print(json.loads(response))
     return str(response)
