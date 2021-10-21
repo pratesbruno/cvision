@@ -16,12 +16,7 @@ def extrair_infos_carteirinha(event={}, context={}):
     bucket_name = 'beep-production'
 
     event_data = event
-    # json.loads funciona para testes locais. event.get_json() para gcp.
-    # try:
-    #     event_json = json.loads(event)
-    # except:
-    #     event_json = event.get_json()
-
+    
     if 'body' in event_data:
         event_data = json.loads(event_data['body'])
         
