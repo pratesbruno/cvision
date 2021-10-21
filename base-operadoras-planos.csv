@@ -14,6 +14,7 @@ Amil;Amil S450 QC;AMIL S450 QC;27
 Amil;Amil S450 QP;AMIL S450 QP;28
 Amil;Amil S750 Colab;AMIL S750 COLAB;33
 Amil;Amil S750 QP;AMIL S750 QP;32
+Amil;Amil S750 QP;AMIL S750 R1 QP;32
 Amil One;Amil One S1500 QP;AMIL ONE S1500;60
 Amil One;Amil One S2500 Colab;AMIL ONE S2500 COLAB;63
 Amil One;Amil One S2500 QP;AMIL ONE S2500 QP;61
@@ -34,11 +35,15 @@ Amil One;Lincx - LT3 Nacional;LINCX LT3;58
 Amil One;Lincx - LT4 Nacional;LINCX LT4;59
 Amil One;Lincx - LT3 Nacional;LT3 NAC;58
 Amil One;Lincx - LT4 Nacional;LT4 NAC;59
-Amil One;One Health  - Rede One Black T5;ONE BLACK T5;57
-Amil One;One Health - Rede One Black T2;ONE BLACK T2;54
+Amil One;One Health  - Rede One Black T5;BLACK T5;57
+Amil One;One Health - Rede One Black T2;BLACK T2;54
 Amil One;One Health - Rede One Black T3;BLACK T3;55
 Amil One;One Health - Rede One T1;ONE T1;53
-Amil One;One Health  - Rede One Black T4;ONE BLACK T4;56
+Amil One;One Health  - Rede One Black T4;BLACK T4;56
+Amil One;One Health  - Rede One Black T5;BLACK_T5;57
+Amil One;One Health - Rede One Black T2;BLACK_T2;54
+Amil One;One Health - Rede One Black T3;BLACK_T3;55
+Amil One;One Health  - Rede One Black T4;BLACK_T4;56
 Bradesco;Rede Nacional;REDE NACIONAL;3
 Bradesco;Rede Nacional;NACIONAL;3
 Bradesco;Internacional;INTERNACIONAL;66
