@@ -49,18 +49,12 @@ class CarteirinhaSaude:
         self.df_planos = rankear_strings_por_ocorrencia(lista_planos, self.linhas_de_texto, tipo='linhas')
         
     def extrair_plano(self):
-        if self.score_operadora > 0.8:  # Só procurar por planos caso o score da operadora tenha sido alto (> 0.8)
-            self.plano, self.score_plano = retornar_melhor_string(self.df_planos)
-            cols = ['operadora', 'string_alvo']
-            valores = [self.operadora, self.plano]
-            self.id_plano = self.df_operadoras_planos[(self.df_operadoras_planos[cols] == valores).all(1)].id_plano.values[0]
-            
-            if self.score_plano < 0.8:
-                self.plano, self.id_plano = None, None
-        
-        
+        self.plano, self.score_plano = retornar_melhor_string(self.df_planos)
+        cols = ['operadora', 'string_alvo']
+        valores = [self.operadora, self.plano]
+        self.id_plano = self.df_operadoras_planos[(self.df_operadoras_planos[cols] == valores).all(1)].id_plano.values[0]
+       
     def extrair_num_carteirinha(self):
-        
         resultados = []
         num_chars_carteirinha = self.dict_operadora_num_chars[self.operadora]
 
@@ -99,7 +93,6 @@ class CarteirinhaSaude:
         if len(resultados) > 0:  
             self.num_carteirinha = resultados[-1]
         
-
     def extrair_operadora_plano_num_carteirinha(self):
         self.detectar_texto()
         self.extrair_texto()
@@ -108,9 +101,6 @@ class CarteirinhaSaude:
         self.rankear_planos()
         self.extrair_plano()
         self.extrair_num_carteirinha()
-        
-        if self.score_operadora < 0.95:
-            self.operadora
         
     def infos(self):
         print(f'Operadora: {self.operadora} ----- Score: {self.score_operadora}')

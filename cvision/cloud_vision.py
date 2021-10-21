@@ -23,7 +23,6 @@ def conectar_cloud_vision_e_detectar_texto(path, origem='s3',bucket_name='beep-p
         raise Exception('Origem deve ser "s3" ou "local".')
     
     image = vision.Image(content=content)
-
     response = client.text_detection(image=image)
     texts = response.text_annotations
 
@@ -34,7 +33,6 @@ def conectar_cloud_vision_e_detectar_texto(path, origem='s3',bucket_name='beep-p
                 response.error.message))
         
     return texts
-
 
 def extrair_texto_cloud_vision(response):
     """Recebe o texto detectado (que inclui coordenadas e outros parametros) e extrai apenas o texto."""
