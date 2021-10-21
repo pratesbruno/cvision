@@ -1,12 +1,2 @@
 {
-  "type": "service_account",
-  "project_id": "cvision-329618",
-  "private_key_id": "32881f39eb846923f3d0a2d131ac143b1a9d1eb0",
-  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQCeHKc8WkhMQMR2\naOuwyhO7KzQWUUxEr7D0gigUcnIhfRhDYZYMci2JGMDMcVHqI2ZZuoAgZP4KRH3b\nBB8oVyyzWtqjiA1SCnfLCiOUteB+cFtKU72rTDIFNE5HOdxYP2ANh2Et0Vy6tiSU\nHmXzFm4LWe7sVSbHJx4RyFZInvm0q1FWrax/wkZfZ0ZtGve0fDIq6Y/YDz18Drgh\nNrA6+8xTT5aLei31Gv91u2XX2kyTx0KN6GCcTbvgg1fMwA73JVBIG2vslJzygFpe\nARIrgS8CAhxw+Bfklc0QJtTdb3IydnwVJ6EYaM9sNH9ocqjFDNA5pr+Ot/6MgYvF\n8MkDJRNnAgMBAAECggEAP+TsYCNL3CTAP+medU70Mkr/PZWU8JzfMa/3amvlW0sm\nJvSkolrxs9lg8D1LEQdFMTWA2ZZ2YsfS5FMCFFdGJSSt/i/Y0jKQvmhWgJ4PHolh\nGuREXZjpDdlZWMc1GCRkOJNg3hchFgLNPV4bbOS/i67IMpEmnoxcRmtjEu3LkwqV\nqikFh+SlKDbS5c3hqZwcxeR3h5eg70n0q73xbHaOpbkj6Fis4X9tpMav5Gdew0bK\nCvo/uZbVevfgwe2c0qmFTAxGNjwFSCjvW3FI4Zorb5VHc1MkCqDrEif1Ldml+Fgi\nUdqbDgW6TEbqZi9kWmCWS2+gb9W+sxzOb+1SIo8YIQKBgQDN2OpwGRfU0YzfXm7p\nW4DQK8FoYnaQxG37PC/A+EovOqAlNpQCGZO6gIbfLFyykPb99223DPIo2ibq1EwX\nPCkpNMFtR63+NnpZfjOooBk2AgG/uguF5k2Pwtb+rpHOCoZJyMebACq6Z3x2t17j\nR9UKMrp34wY6Qzx3w9W+lFiNmwKBgQDEomQVsE0il5jMAVM/fts6sZ8wgaEZOKnJ\nLHRYSigDmCBxvhm9BebvPGJMfPH9qdSpt84w43e7OAhBQwO8VqpqYD2hq2nkVFdv\nrx38mQZ9D+ynBcZ91PCvkMqanyjsZr+RqlJdx8/iWRzOrwyh8GQxZiyyZBDlfbRD\nZ3y6FqGUJQKBgQCoAi2GhNSQnN/vx/GagVanka7v9b1z9v8VGVCYnY5e8eiXtu4i\nsKGEjTaHnHukOvF846Am0Wgss7Ej5VadeDrYKPjeqqx2WhyOQpUDQniRPh4TUFPr\nW8deWNaFVBIpKynjuv4/omk9bw2FD7Fgq9ZT1oefJiqFDy+hSLOCMy37lQKBgB4K\nIPgfQulx92nTGgCtRJim4gbrBs1vlqChJfUG/y3tY6d8vzndWPZbZzkALYfvFgoH\nhnx5g6UaXkh6EGwJYWd25HN6WGcFa4YoXpBkYFVixWiOvVAj49EucYVFo17aI5IB\nTyv8homxy3DX1To4G1ZgoZtvJhWpKozRloBnTK/xAoGATp77prgObh4MTw4LziZb\n9CYdUepRCyiGbM0EuYCAhJ7MVRprx6MOxr3+jOZ/iWBY2O1R94l74K0QzxP0erJV\nlRSvBZ/uNghzT7BYrKzqygkOxXp2gCr5rlZ+INjLoq+xE83Zt9Wn4yVc3GdZDkjy\ntvejT9fv0lDRoP2CNmSv8j4=\n-----END PRIVATE KEY-----\n",
-  "client_email": "cvision-service-account@cvision-329618.iam.gserviceaccount.com",
-  "client_id": "104575394740909517507",
-  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
-  "token_uri": "https://oauth2.googleapis.com/token",
-  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
-  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/cvision-service-account%40cvision-329618.iam.gserviceaccount.com"
-}
+  "fake_creds": "fake_creds"}
